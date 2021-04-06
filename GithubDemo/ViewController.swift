@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Github is working from my side")
+        
         // Do any additional setup after loading the view.
     }
 
