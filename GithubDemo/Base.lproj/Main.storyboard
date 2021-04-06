@@ -37,10 +37,43 @@
             </objects>
             <point key="canvasLocation" x="141" y="77"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JiX-oZ-OUS">
+            <objects>
+                <viewController id="bJT-Ej-zH9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pvf-Ly-4xg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Second controller" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFI-yT-XXH">
+                                <rect key="frame" x="8" y="434" width="398" height="38.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VPv-9t-1vv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GFI-yT-XXH" firstAttribute="centerX" secondItem="VPv-9t-1vv" secondAttribute="centerX" id="5dJ-ez-Db6"/>
+                            <constraint firstItem="VPv-9t-1vv" firstAttribute="trailing" secondItem="GFI-yT-XXH" secondAttribute="trailing" constant="8" id="DTO-7h-cLQ"/>
+                            <constraint firstItem="GFI-yT-XXH" firstAttribute="centerY" secondItem="VPv-9t-1vv" secondAttribute="centerY" id="FOV-88-FPJ"/>
+                            <constraint firstItem="GFI-yT-XXH" firstAttribute="leading" secondItem="VPv-9t-1vv" secondAttribute="leading" constant="8" id="eBk-FA-Oqu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNO-Dx-A39" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="70"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
